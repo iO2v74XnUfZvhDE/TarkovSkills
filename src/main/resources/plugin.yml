@@ -1,0 +1,14 @@
+name: TarkovSkills
+version: '${project.version}'
+main: me.io2.tarkovskills.TarkovSkills
+api-version: 1.16
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  checkskill:
+    permission: mc.io2.tarkovskills.everyone
+
+permissions:
+  mc.io2.tarkovskills.everyone:
+    default: true
